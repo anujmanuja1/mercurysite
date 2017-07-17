@@ -20,7 +20,7 @@ public static WebDriver driver;
 //		String appURL = "http://newtours.demoaut.com/";
 		switch(browsername){
 			case "IE":
-				System.out.println("IE browser has been invoked");
+				System.out.println("Internet Explorer browser has been invoked");
 				System.setProperty("webdriver.ie.driver","C:/SeleniumProjects/IEDriverServer_Win32_2.53.1/IEDriverServer.exe");
 				driver = new InternetExplorerDriver();
 				break;
