@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+    <parameter name= "browsername" value="CH"/>
+    <parameter name= "appURL" value= "http://newtours.demoaut.com/" />
+    <parameter name= "correctuname" value= "mercury" />
+    <parameter name= "correctpassword" value= "mercury" />
+    <parameter name= "incorrectpassword1" value= "abc" />
+    <parameter name= "incorrectuname1" value= "abc" />
+    <parameter name= "incorrectpassword2" value= "anuj" />
+    <parameter name= "incorrectuname2" value= "anuj" />
+	<test name="Test">
+		<classes>
+			<class name="com.qurate.assessment.BaseSetUp" />
+			<class name="com.qurate.assessment.Mercury_Validations" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite --> 
