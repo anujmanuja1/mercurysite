@@ -25,7 +25,7 @@ public static WebDriver driver;
 				driver = new InternetExplorerDriver();
 				break;
 			case "FF":
-				System.out.println("FF browser has been invoked");
+				System.out.println("FireFox browser has been invoked");
 				driver = new FirefoxDriver();
 				break;
 			case "CH":
