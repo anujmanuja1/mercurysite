@@ -2,4 +2,4 @@
 *.class
 *.idea
 *.iml
-test-output
+test-output/
